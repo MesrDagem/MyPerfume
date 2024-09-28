@@ -1,8 +1,8 @@
 "use client"; // This directive enables the component to be rendered on the client side.
 
 import React, { useState, useEffect, useRef } from "react";
-import Card from "../components/Card";
-import Cart from "../components/Cart";
+import Card from "../Components/Card";
+import Cart from "../Components/Cart";
 import { Toaster, toast } from "sonner";
 import localFont from "next/font/local";
 import "../styles/global.css"; // Ensure this path is correct
