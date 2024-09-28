@@ -1,0 +1,63 @@
+/* Combined CSS */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40; /* Dark background for header */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Centered text */
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 16px; /* Padding inside card */
+    margin: 10px; /* Margin between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.5em; /* Larger font size for title */
+    margin-bottom: 10px; /* Space below title */
+}
+
+/* Card Content */
+.card-content {
+    font-size: 1em; /* Normal font size for content */
+}
+
+/* Button Styles */
+.button {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Padding for footer */
+    position: relative; /* Position relative for proper placement */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
